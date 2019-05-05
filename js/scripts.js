@@ -197,7 +197,7 @@ $(document).ready(function () {
             end: new Date('May 26, 2019 22:00'),
 
             // Event Address
-            address: 'In & Out Curry Bowl, 13816 P Street, Omaha, NE 68137',
+            address: 'IN and OUT CURRY BOWL HALAL RESTAURANT, 13816 P St, Omaha, NE 68137, USA',
 
             // Event Description
             description: "We can't wait to see you on our big day. For any queries or issues contact Ashraful Islam at +1 (402) 601-8330"
