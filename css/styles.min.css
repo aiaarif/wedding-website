@@ -510,7 +510,9 @@ header ul.member-actions li a:hover {
 }
 
 header .header-nav {
-    display: inline-block
+    display: inline-block;
+    font-size: 18px;
+    font-weight: bold;
 }
 
 header .member-actions {
@@ -1000,7 +1002,19 @@ header .member-actions {
     transform: translateY(-50%)
 }
 
+.rsvp i.fa-heart-broken,
+.rsvp i.fa-smile-beam {
+	/*font-size: 16px;*/
+    /*position: absolute;*/
+    /*top: 50%;*/
+    /*transform: translateY(-50%);*/
+    margin-left: 10px;
+    margin-right: 10px;
+    color: red;
+}
 .rsvp .rsvp-form .form-input-group i.fa-user,
+.rsvp .rsvp-form .form-input-group i.fa-utensils,
+.rsvp .rsvp-form .form-input-group i.fa-envelope-open-text,
 .rsvp .rsvp-form .form-input-group i.fa-users,
 .rsvp .rsvp-form .form-input-group i.fa-envelope,
 .rsvp .rsvp-form .form-input-group .fa-key {
@@ -1010,6 +1024,7 @@ header .member-actions {
     transform: translateY(-50%);
     margin-left: 20px
 }
+
 
 .rsvp .rsvp-form .form-input-group input {
     padding-left: 68px;
