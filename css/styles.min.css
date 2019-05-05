@@ -51,8 +51,8 @@ h5 {
 .btn:hover,
 .btn:focus {
     color: #fff;
-    border-color: #e53737;
-    background-color: #e53737
+    border-color: red;
+    background-color: red
 }
 
 .btn-white {
@@ -67,26 +67,26 @@ h5 {
 
 .btn-white:hover,
 .btn-white:focus {
-    color: #e53737;
-    border-color: #e53737
+    color: red;
+    border-color: red
 }
 
 .btn-fill {
     color: #fff;
-    border: solid 2px #e53737;
+    border: solid 2px red;
     -moz-border-radius: 40px;
     -webkit-border-radius: 40px;
     border-radius: 40px;
     display: inline-block;
     text-transform: uppercase;
-    background-color: #e53737
+    background-color: red
 }
 
 .btn-fill:hover,
 .btn-fill:focus {
     color: #fff;
-    background-color: #d3b56a;
-    border-color: #d3b56a
+    background-color: #d00000;
+    border-color: #d00000
 }
 
 .btn-small {
@@ -128,7 +128,7 @@ section.blog {
 }
 
 a {
-    color: #e53737;
+    color: red;
     -webkit-transition-timing-function: ease;
     transition-timing-function: ease;
     -webkit-transition-duration: 200ms;
@@ -139,7 +139,7 @@ a {
 
 a:hover,
 a:focus {
-    color: #d3b56a;
+    color: #d00000;
     text-decoration: none
 }
 
@@ -490,7 +490,7 @@ header ul.primary-nav li a {
 }
 
 header ul.primary-nav li a:hover {
-    color: #e53737
+    color: red
 }
 
 header ul.primary-nav li:last-child a {
@@ -506,7 +506,7 @@ header ul.member-actions li a {
 }
 
 header ul.member-actions li a:hover {
-    color: #e53737
+    color: red
 }
 
 header .header-nav {
@@ -535,7 +535,7 @@ header .member-actions {
 
 .intro span.icon {
     font-size: 40px;
-    color: #e53737;
+    color: red;
     font-weight: bold
 }
 
@@ -580,7 +580,7 @@ header .member-actions {
 
 .features span.icon {
     font-size: 35px;
-    color: #e53737;
+    color: red;
     font-weight: bold
 }
 
@@ -985,7 +985,7 @@ header .member-actions {
 }
 
 .rsvp .rsvp-form .form-input-group i {
-    color: #e53737;
+    color: red;
     font-size: 14px
 }
 
